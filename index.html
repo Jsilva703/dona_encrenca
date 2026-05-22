@@ -3,87 +3,86 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0c4f93">
+    <meta name="theme-color" content="#083a6f">
     <title>Dona Encrenca | Carta de Anivers&aacute;rio</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="ambient" aria-hidden="true">
-      <span class="star star-one"></span>
-      <span class="star star-two"></span>
-      <span class="star star-three"></span>
-      <span class="star star-four"></span>
-      <span class="spark spark-one"></span>
-      <span class="spark spark-two"></span>
-      <span class="spark spark-three"></span>
-    </div>
+    <main class="page">
+      <section class="hero" aria-label="Presente de aniversario">
+        <img
+          class="hero-photo"
+          src="assets/familia-balneario.jpeg"
+          alt="Foto da nossa familia em Balneario Camboriu"
+        >
+        <div class="hero-shade"></div>
 
-    <main class="experience">
-      <section class="opening" aria-label="Abertura do presente">
-        <div class="opening-copy">
-          <p class="kicker">26 voltas ao sol, uma dona encrenca e muito amor</p>
-          <h1>Feliz anivers&aacute;rio, meu xuxuzinho</h1>
-          <p>
-            Uma carta feita para abrir devagar, do jeitinho que a gente merece:
-            com brincadeira, carinho, fam&iacute;lia e um pouquinho de bagun&ccedil;a boa.
-          </p>
-
-          <div class="opening-actions">
-            <button class="main-button" type="button" data-open-letter>
-              Abrir o presente
-            </button>
-            <span class="tiny-note">feito pelo seu eterno perturbador</span>
+        <div class="stitch-corner" aria-hidden="true">
+          <div class="stitch-ear left"></div>
+          <div class="stitch-ear right"></div>
+          <div class="stitch-head">
+            <span class="stitch-eye left"></span>
+            <span class="stitch-eye right"></span>
+            <span class="stitch-nose"></span>
+            <span class="stitch-mouth"></span>
           </div>
+          <span class="ohana-tag">ohana</span>
         </div>
 
-        <div class="stage" aria-hidden="true">
-          <div class="moon"></div>
-          <div class="character">
-            <div class="ear ear-left"></div>
-            <div class="ear ear-right"></div>
-            <div class="head">
-              <span class="eye eye-left"></span>
-              <span class="eye eye-right"></span>
-              <span class="nose"></span>
-              <span class="smile"></span>
-            </div>
-            <div class="body"></div>
-          </div>
-          <div class="envelope">
-            <div class="envelope-back"></div>
-            <div class="letter-peek">te amo</div>
-            <div class="envelope-front"></div>
-            <div class="seal"></div>
-          </div>
+        <div class="hero-content">
+          <p class="eyebrow">26 aninhos da minha dona encrenca</p>
+          <h1>Feliz anivers&aacute;rio, meu xuxuzinho</h1>
+          <p class="hero-text">
+            Hoje &eacute; sobre voc&ecirc;, sobre n&oacute;s e sobre essa fam&iacute;lia linda
+            que a gente vem construindo com amor, bagun&ccedil;a e parceria.
+          </p>
+          <button class="primary-button" type="button" data-open-letter>
+            Abrir minha carta
+          </button>
+        </div>
+
+        <div class="photo-caption">
+          <span>Balne&aacute;rio Cambori&uacute;</span>
+          <span>n&oacute;s tr&ecirc;s</span>
+          <span>fam&iacute;lia</span>
         </div>
       </section>
 
       <section class="letter-section" id="carta" aria-label="Carta de aniversario">
-        <div class="letter-shell">
-          <aside class="side-panel" aria-label="Resumo do presente">
-            <p class="side-label">Carta especial</p>
-            <h2>Para a minha fam&iacute;lia</h2>
-            <p>
-              Cada parte foi separada como se fosse uma p&aacute;gina de uma carta:
-              uma brincadeira, uma verdade e uma promessa.
-            </p>
-            <div class="mini-memories" aria-hidden="true">
-              <span>26 aninhos</span>
-              <span>n&oacute;s dois</span>
-              <span>a pequena</span>
-              <span>dona encrenca</span>
+        <div class="letter-layout">
+          <aside class="memory-panel">
+            <img
+              src="assets/familia-balneario.jpeg"
+              alt="Nossa familia sorrindo em Balneario Camboriu"
+            >
+            <div class="memory-copy">
+              <p class="panel-label">Presente especial</p>
+              <h2>Para a mulher que virou minha casa</h2>
+              <p>
+                Uma carta em p&aacute;ginas, feita para voc&ecirc; ler com calma e sentir
+                que cada palavra tem um pedacinho nosso.
+              </p>
+            </div>
+            <div class="stitch-strip" aria-hidden="true">
+              <span>Stitch vibes</span>
+              <span>ohana</span>
+              <span>te amo</span>
             </div>
           </aside>
 
-          <div class="reader">
-            <div class="reader-top">
+          <section class="reader" aria-label="Leitor da carta">
+            <div class="reader-header">
               <div>
-                <p class="reader-label">Pagina <span data-page-current>1</span> de <span data-page-total>6</span></p>
+                <p class="reader-label">
+                  P&aacute;gina <span data-page-current>1</span> de <span data-page-total>6</span>
+                </p>
                 <div class="progress" aria-hidden="true">
                   <span data-progress></span>
                 </div>
               </div>
-              <div class="soft-badge">ohana vibes</div>
+              <div class="reader-mascot" aria-hidden="true">
+                <span></span>
+              </div>
             </div>
 
             <article class="letter-card is-active" data-card>
@@ -94,8 +93,7 @@
                 de idade e chegando cada vez mais perto dos 30.
               </p>
               <p>
-                Mas calma, ainda d&aacute; tempo de eu te perturbar bastante antes
-                disso.
+                Mas calma, ainda d&aacute; tempo de eu te perturbar bastante antes disso.
               </p>
             </article>
 
@@ -114,15 +112,14 @@
 
             <article class="letter-card" data-card>
               <p class="card-number">03</p>
-              <h3>A nossa casa</h3>
+              <h3>A nossa fam&iacute;lia</h3>
               <p>
-                Sou muito grato por tudo que vem acontecendo entre n&oacute;s e
-                com a pequena. Aos poucos, a gente vai virando casa, rotina,
-                cuidado e fam&iacute;lia.
+                Sou muito grato por tudo que vem acontecendo entre n&oacute;s e com a
+                pequena. Aos poucos, a gente vai virando casa, rotina, cuidado e
+                fam&iacute;lia.
               </p>
               <p>
-                E eu quero que voc&ecirc; sinta que aqui tem colo, presen&ccedil;a
-                e paz.
+                E eu quero que voc&ecirc; sinta que aqui tem colo, presen&ccedil;a e paz.
               </p>
             </article>
 
@@ -130,10 +127,9 @@
               <p class="card-number">04</p>
               <h3>Minha vontade</h3>
               <p>
-                Espero conseguir ser fam&iacute;lia para voc&ecirc;. Espero conseguir
-                te trazer a sensa&ccedil;&atilde;o de leveza e seguran&ccedil;a que
-                voc&ecirc; talvez n&atilde;o tenha recebido como merecia durante tantos
-                anos da sua vida.
+                Espero conseguir ser fam&iacute;lia para voc&ecirc;. Espero conseguir te
+                trazer a sensa&ccedil;&atilde;o de leveza e seguran&ccedil;a que voc&ecirc; talvez
+                n&atilde;o tenha recebido como merecia durante tantos anos da sua vida.
               </p>
               <p>
                 De mim, voc&ecirc; ter&aacute; amor, cuidado, parceria e presen&ccedil;a.
@@ -144,9 +140,8 @@
               <p class="card-number">05</p>
               <h3>N&oacute;s dois</h3>
               <p>
-                A gente j&aacute; passou da fase de namoridos. Hoje somos
-                constru&ccedil;&atilde;o, somos parceria, somos um s&oacute; quando a vida
-                pede uni&atilde;o.
+                A gente j&aacute; passou da fase de namoridos. Hoje somos constru&ccedil;&atilde;o,
+                somos parceria, somos um s&oacute; quando a vida pede uni&atilde;o.
               </p>
               <p>
                 E por mais que &agrave;s vezes tu me estresse, eu sou eternamente
@@ -171,7 +166,7 @@
               <button class="nav-button ghost" type="button" data-prev>Voltar</button>
               <button class="nav-button" type="button" data-next>Pr&oacute;ximo</button>
             </div>
-          </div>
+          </section>
         </div>
       </section>
     </main>
